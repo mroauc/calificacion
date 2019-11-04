@@ -1,8 +1,21 @@
 @extends('layouts.app')
+<style>
+	.imagenUcm{
+		text-align: center;
+		opacity:0.4;
+		position: fixed;
+		bottom:100px;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+	}
+
+</style>
 
 @section('content')
 
-<div class="container">
+<div class="container" style="text-align:center;">
 
 <!-- Seccion que permite mostrar mensajes en pantalla-->
 @if(Session::has('Mensaje'))
@@ -28,7 +41,9 @@
 <a href="{{ url('admin/periodos') }}" class="btn btn-primary" >Periodos</a>
 <a href="{{ url('admin/periodos') }}" class="btn btn-primary" >Prueba3</a>
 <br/>
-<br/> 
+<br/>
+
+<div class="imagenUcm"><img src="{{asset('images/UCM.png')}}" width="400" height="180"></div>
 
 </div>
 @endsection
