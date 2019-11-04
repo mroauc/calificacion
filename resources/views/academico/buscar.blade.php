@@ -21,7 +21,7 @@
 	<!-- Cabecera de la tabla, donde se especifica los datos que tendrá cada columna-->
 	<thread class="thread-light">
 		<tr>
-			<th>Rut</th>
+			<th>Rut1</th>
 			<th>Nombre(s)</th>
 			<th>Apellido(s)</th>
 			<th>Departamento</th>
