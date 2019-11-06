@@ -105,7 +105,7 @@
 				<option value="Instructor">Instructor</option>
 				<option value="Auxiliar">Auxiliar</option>
 				<option value="Adjunto">Adjunto</option>
-				<option value="Titular">Titular</option>
+				<option value="Titular">Titulars</option>
 		</select>
 		{!! $errors->first('categoria','<div class="invalid-feedback">:message</div>') !!}
 	</div>
